@@ -1,0 +1,38 @@
+{
+  "name": "@xpcoffee/bank-schema-cli",
+  "main": "./dist/cli.js",
+  "version": "1.0.0",
+  "description": "CLI for parsing and working with data conforming to bank-schema",
+  "author": "Emerick Bosch <xpc.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "watch": "webpack --watch",
+    "cli": "node dist/cli",
+    "tsc": "tsc",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "bank-schema": "git://github.com/xpcoffee/bank-schema#master",
+    "@xpcoffee/bank-schema-parser": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^11.9.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "terser-webpack-plugin": "^4.2.1",
+    "ts-jest": "^26.3.0",
+    "ts-loader": "^8.0.4",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-shell-plugin": "^0.5.0"
+  },
+  "bin": "./dist/cli"
+}
