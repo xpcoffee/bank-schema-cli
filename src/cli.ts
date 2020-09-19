@@ -1,9 +1,6 @@
 import * as program from "commander";
-import {
-  ParseFileParams,
-  parseFromFile,
-  fileTypes,
-} from "@xpcoffee/bank-schema-parser";
+import { fileTypes } from "@xpcoffee/bank-schema-parser";
+import { ParseFileParams, parseFromFile } from "./node-parser";
 
 function run(proc: NodeJS.Process) {
   // Parse command-line input
