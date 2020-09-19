@@ -2,8 +2,14 @@
 
 This is a command line interface for the functionality of [bank-schema-parser](github.com/xpcoffee/bank-schema-parser).
 
-## Running the CLI
+**Installing the CLI**
 
 ```shell
-npm run cli
+npm run build && npm run cli
+```
+
+**Running the CLI during development**
+
+```shell
+npm run build && npm run cli
 ```
