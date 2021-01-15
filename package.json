@@ -23,7 +23,7 @@
   "dependencies": {
     "commander": "^2.19.0",
     "bank-schema": "git://github.com/xpcoffee/bank-schema#master",
-    "@xpcoffee/bank-schema-parser": "^1.1.3"
+    "@xpcoffee/bank-schema-parser": "^1.2.6"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
@@ -33,7 +33,6 @@
     "@types/node": "^11.9.5",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
-    "terser-webpack-plugin": "^4.2.1",
     "ts-jest": "^26.3.0",
     "ts-loader": "^8.0.4",
     "typescript": "^3.9.7",

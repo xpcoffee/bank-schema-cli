@@ -1,7 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
 const WebpackShellPlugin = require("webpack-shell-plugin");
-const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   entry: "./src/cli.ts",
@@ -34,8 +33,4 @@ module.exports = {
     filename: "bank-schema-cli",
     libraryTarget: "var",
   },
-  // optimization: {
-  //   minimize: true,
-  //   minimizer: [new TerserPlugin()],
-  // },
 };
