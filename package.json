@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "commander": "^2.19.0",
-    "bank-schema": "git://github.com/xpcoffee/bank-schema#master",
+    "@xpcoffee/bank-schema": "^1.0.0",
     "@xpcoffee/bank-schema-parser": "^1.2.6"
   },
   "devDependencies": {
