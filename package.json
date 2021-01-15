@@ -1,7 +1,7 @@
 {
   "name": "@xpcoffee/bank-schema-cli",
   "main": "./dist/cli.js",
-  "version": "0.0.4",
+  "version": "2.0.0",
   "description": "CLI for parsing and working with data conforming to bank-schema",
   "author": "Emerick Bosch <xpc.dev@gmail.com>",
   "license": "MIT",
@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "commander": "^2.19.0",
-    "@xpcoffee/bank-schema": "^1.0.0",
-    "@xpcoffee/bank-schema-parser": "^1.2.6"
+    "@xpcoffee/bank-schema": "^2.0.0",
+    "@xpcoffee/bank-schema-parser": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
